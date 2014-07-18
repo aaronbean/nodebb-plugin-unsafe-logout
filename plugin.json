@@ -1,0 +1,11 @@
+{
+	"id": "nodebb-plugin-unsafe-logout",
+	"name": "NodeBB Logout w/o CSRF Validation",
+	"description": "NodeBB Plugin that creates logout route without CSRF validation",
+	"url": "https://github.com/beardon/nodebb-plugin-unsafe-logout",
+	"library": "./library.js",
+	"hooks": [
+		{ "hook": "action:app.load", "method": "init" }
+	],
+	"minver": "0.4.0"
+}

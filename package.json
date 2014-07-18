@@ -1,0 +1,27 @@
+{
+  "name": "nodebb-plugin-unsafe-logout",
+  "version": "0.0.1",
+  "description": "NodeBB Logout w/o CSRF Validation",
+  "main": "library.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/beardon/nodebb-plugin-unsafe-logout"
+  },
+  "keywords": [
+    "nodebb",
+    "plugin",
+    "logout",
+    "csrf"
+  ],
+  "author": {
+      "name": "Aaron Bean",
+      "email": "aaron.bean@beardon.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/beardon/nodebb-plugin-unsafe-logout/issues"
+  },
+  "readme": "",
+  "dependencies": {
+  }
+}
